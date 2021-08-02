@@ -22,7 +22,7 @@ public class playerMovement : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.A))
 		{
-			transform.position.x = transform.position.x - 3;
+			//transform.position.x = transform.position.x - 3;
 		}
 		transform.Translate(Vector3.forward * speed * Time.deltaTime);
         if(Input.GetButtonDown("Jump") && jumping > 0 && changingLanes == false)
