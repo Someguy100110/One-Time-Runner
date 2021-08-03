@@ -1,0 +1,2614 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 8034 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ninja/Documents/GitHub/One-Time-Runner/city
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52850
+Successfully changed project path to: C:/Users/ninja/Documents/GitHub/One-Time-Runner/city
+C:/Users/ninja/Documents/GitHub/One-Time-Runner/city
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ninja/Documents/GitHub/One-Time-Runner/city/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4029 MB
+    Driver:   23.21.13.8873
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004280 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 23.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5033ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 2.110200 ms (FindLiveObjects: 0.135800 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.869600 ms  DeleteObjects: 0.067900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008648 seconds 
+  Import took 0.011344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.972227 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003241 seconds 
+  Import took 0.007413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.232122 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(4ec4f5ea5ee329444a1d953c8fd01b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(4ec4f5ea5ee329444a1d953c8fd01b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407170c990d42b5442d486e079ce0345') in 0.252832 seconds 
+  Import took 0.256744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.944076 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(d77038c0591de2e4ea9a0d5d3441a0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(d77038c0591de2e4ea9a0d5d3441a0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b1bbd6aeb0706be90b17d34e382230') in 0.038982 seconds 
+  Import took 0.044011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.139938 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077c51a9160236fc8d359636aa4b1a4b') in 0.040604 seconds 
+  Import took 0.044263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.480201 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c4308ea2d85d018e5cf214fa52249a') in 0.017771 seconds 
+  Import took 0.021447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178668 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c6c7b02a756aa1929d97333c5a83df') in 0.013500 seconds 
+  Import took 0.016687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.998084 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93793fa4fbee2e68e1dccedc1c24b15') in 0.018657 seconds 
+  Import took 0.021987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.796547 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e27b8402a1fcc3565e424399c454ed') in 0.017377 seconds 
+  Import took 0.020569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.397785 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e5b6d7d52dd5bb9ba3a24f71c22e79') in 0.020064 seconds 
+  Import took 0.023744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.022175 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37830f7862e18875985de3db2ec36165') in 0.016870 seconds 
+  Import took 0.019350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.793959 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1176c85af71f7c8f5ecae2272d8cb85') in 0.015180 seconds 
+  Import took 0.018920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.604247 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413d6cff1baf76f4e5d9c581acd42e2c') in 0.018521 seconds 
+  Import took 0.022229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.989881 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1b2384bbb0936a59ca11166e219301') in 0.019139 seconds 
+  Import took 0.022576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.588699 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2431805e745d40f9e2ed38433cea516f') in 0.020110 seconds 
+  Import took 0.023162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.613956 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8faa59c7f4cbb90e068e183de87f2e0d') in 0.012879 seconds 
+  Import took 0.015524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793651 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff570d51a254dd461ffd1bf21e2c418') in 0.016919 seconds 
+  Import took 0.019625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.608992 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ded0839cfaad626ebf6de475b643a62') in 0.017539 seconds 
+  Import took 0.022241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.448093 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a75f306f84149bf292edaf818f9f4c') in 0.018184 seconds 
+  Import took 0.021178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.774139 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ad9716b484a638a0735135f15626ab') in 0.011631 seconds 
+  Import took 0.014034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.567190 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92391afef58172eae93a7713499a5b82') in 0.017153 seconds 
+  Import took 0.020383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.141235 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a8278d0d54044e3f2ce4605e01020b') in 0.014191 seconds 
+  Import took 0.018680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.787683 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e24e9b2fd9a54d271123e104686bb71') in 0.013639 seconds 
+  Import took 0.016227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.265750 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a78d3c119aa61140315f504c335469d') in 0.015307 seconds 
+  Import took 0.018555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.657473 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfe2f3c76fa0ed4a1d317756b35561b') in 0.010353 seconds 
+  Import took 0.013436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.455546 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b80f5a3afd7ecd3a3745e31753b19f0') in 0.008745 seconds 
+  Import took 0.012601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.871455 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36111b05c0f8eb168da6c65cc6ceeea') in 0.015430 seconds 
+  Import took 0.017838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.068379 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a259b77273ff410489f424cfb55c4e') in 0.005607 seconds 
+  Import took 0.008013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002750 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a259b77273ff410489f424cfb55c4e') in 0.004869 seconds 
+  Import took 0.008607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.487960 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d47600ea51206296d98d5ffdf7e8460') in 0.017159 seconds 
+  Import took 0.020804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.590660 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2239a2eb859d5117327073159991a31') in 0.013510 seconds 
+  Import took 0.017738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.205846 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd485ef97514276b62458ee7a0e5a7986') in 0.018290 seconds 
+  Import took 0.021275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.794660 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667987afa5013fccd88dec3636668bd1') in 0.015586 seconds 
+  Import took 0.018470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.063639 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6e4d9492d173c7ae5f3272b3b75f83') in 0.018059 seconds 
+  Import took 0.020957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.981497 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c887ed19956f4ef9362b1d79697436f') in 0.011263 seconds 
+  Import took 0.013975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.095537 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc616f786a6623a7694c6b68df134323') in 0.015338 seconds 
+  Import took 0.018142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.449662 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28b383fafc5bb78a6c1abfe8850a0a1') in 0.017263 seconds 
+  Import took 0.020398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000937 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa17d8c3647c2d32ae93661720ce20e') in 0.013575 seconds 
+  Import took 0.017348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.186830 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe3288c0d851dd31660cff403ed592e') in 0.015657 seconds 
+  Import took 0.018651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.389495 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a9040a84c2cc861f8fb4ee6d5cb6b4') in 0.016761 seconds 
+  Import took 0.019792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.195582 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec8574812ddb8be0dc9cfc62fb29fd2') in 0.017854 seconds 
+  Import took 0.020961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.025497 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0a7d2db5c20199fdf119c8992fc1e2') in 0.017649 seconds 
+  Import took 0.022803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.173612 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873b70c4050e12ebbe7042005138c2ad') in 0.016582 seconds 
+  Import took 0.018945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.808874 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef21314fcbc912d4abe7351fba93c676') in 0.017946 seconds 
+  Import took 0.020693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.789320 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df67539102aa13572b2aa1664a036195') in 0.018063 seconds 
+  Import took 0.020772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.665945 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b05840e0fbf0bc89af756b9d56db40') in 0.016753 seconds 
+  Import took 0.019178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.589876 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e87d3c2f785b9fe9884a2eb87736b30') in 0.013464 seconds 
+  Import took 0.016153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.627312 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feec168457b316f9fe59bab91a095dc1') in 0.016247 seconds 
+  Import took 0.018732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.599305 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f150b33409d34d01f4638a750ec124e3') in 0.020250 seconds 
+  Import took 0.023509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.997438 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4caa884a76b1fd2850bd87be7fd7e3') in 0.013807 seconds 
+  Import took 0.016890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.737832 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d598056ecf34e9ecad2977793f4dcd7') in 0.018699 seconds 
+  Import took 0.022473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.959023 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ce90c5c8899f7e44a876bf4447023a') in 0.018902 seconds 
+  Import took 0.021515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.006447 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572d28bf826535ce409655291af1f177') in 0.012016 seconds 
+  Import took 0.014820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.220841 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82b74f0b2faf96cee532b2fa6341c69') in 0.018205 seconds 
+  Import took 0.021342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.005996 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bf8d73659a278e566a1b3a32a1222a') in 0.018542 seconds 
+  Import took 0.021703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.209154 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad712e15d32151224256a46f0689394') in 0.019341 seconds 
+  Import took 0.022294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.038425 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dded58351f0370541c1551b62c20996') in 0.014533 seconds 
+  Import took 0.016956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.787217 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1fbfa699273e962bdf5717fc50ca94') in 0.015321 seconds 
+  Import took 0.018020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390284 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1ea02368e701d26cd9e018272b5ca4') in 0.015140 seconds 
+  Import took 0.017559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.391892 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd98548a2ab1b214b5784fb2b1ba32c') in 0.016552 seconds 
+  Import took 0.019417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990924 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcfd4acd8c2b4c7aea83d9de0758347') in 0.015121 seconds 
+  Import took 0.018025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.438992 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efb12ffc8964460bc0c3b2a9fc35e76') in 0.016826 seconds 
+  Import took 0.019772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.631583 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d42c73f36035795b9230a848975a835') in 0.018782 seconds 
+  Import took 0.021923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.605740 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc9d7d92f812bd83edd3ac25bd83961') in 0.019423 seconds 
+  Import took 0.022708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.801170 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f567a71e4306be965a4acd2cb6346672') in 0.013184 seconds 
+  Import took 0.016266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.261737 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5236bb44ba1ead6524507c317f14eb3a') in 0.016455 seconds 
+  Import took 0.019114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.817448 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a69dfec5f7015fbcef0d74f3f27d01') in 0.014760 seconds 
+  Import took 0.017202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.012512 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b212fdb44f0cd2cc997ca7a52cf70f') in 0.017285 seconds 
+  Import took 0.020497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.419547 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386a2b02a510cc99c6bf5378bad4aedb') in 0.013822 seconds 
+  Import took 0.018127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.621554 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be4b1764ffea16b466be9556c70cd16') in 0.012891 seconds 
+  Import took 0.015832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.402846 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e49cea805198110444285794b81dd69') in 0.016895 seconds 
+  Import took 0.019609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.998387 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc5b176f0eea72548f5c02a968a2048') in 0.015607 seconds 
+  Import took 0.019564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.210321 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5bd00b1e695df2dec86dec2c219f58') in 0.016651 seconds 
+  Import took 0.019496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.678064 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f8f7025b9e891f8fbb9f9e1f93dd86') in 0.012574 seconds 
+  Import took 0.015141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.277661 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c12f3bd23d8863576021bc582098c12') in 0.011636 seconds 
+  Import took 0.015716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.420534 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dad857ffb7fd12e5d940772643ca40d') in 0.010656 seconds 
+  Import took 0.013386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.833091 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4d29de4400106f7f0b9af0384685b2') in 0.009831 seconds 
+  Import took 0.013309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.219121 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d451fe53b99e2a3bc54151b8a6278d7') in 0.021191 seconds 
+  Import took 0.023985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.823736 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224605116415ecc627e7749a9800b950') in 0.019820 seconds 
+  Import took 0.022788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.194885 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67feb3ad4196a10392df3524342e0d30') in 0.014682 seconds 
+  Import took 0.018003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.872396 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30b8b2d66dfc69394cd848ae3016603') in 0.013161 seconds 
+  Import took 0.016624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.754639 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318aa94630ac12cc3444a1c9c988b17f') in 0.015739 seconds 
+  Import took 0.018230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.197711 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14fb6f2e872d72b19719a06efd3ecf2') in 0.013450 seconds 
+  Import took 0.016042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.070959 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b86d48feafe982dbb809df4bc24d9ad') in 0.011794 seconds 
+  Import took 0.015229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.941257 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c111e0f13422f9e1eddfd6a95b51f3d') in 0.016637 seconds 
+  Import took 0.019637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.342488 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9c3eb3d5b3d4947b4e7130940fca61') in 0.011576 seconds 
+  Import took 0.014390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.011014 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3268efc12f53aee5ecc46cbaf75d19b') in 0.009712 seconds 
+  Import took 0.012346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.318596 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7fbd59bdaf177d237c258cc506be1a') in 0.014342 seconds 
+  Import took 0.017315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.058883 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d580f9a968e2c41f58fdc0e332f5968') in 0.012620 seconds 
+  Import took 0.015320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.745590 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64d706fac60b0ab34d0659f2ebf5dc1') in 0.016347 seconds 
+  Import took 0.019125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.219855 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef500021b8fccabde34987c85bb352fe') in 0.018648 seconds 
+  Import took 0.021513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.269163 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2bd489a1020333ab732bab73e40f90') in 0.013009 seconds 
+  Import took 0.015657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.241573 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b178d7081f22a3df4cb33480e215f24c') in 0.019754 seconds 
+  Import took 0.023558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.814556 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e512fab872538c90056a9055ece2943') in 0.016126 seconds 
+  Import took 0.018770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.770819 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e4dcf55c768b00073e307e4c4e96ea') in 0.020054 seconds 
+  Import took 0.024231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.939280 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea882c33c24bd34225df1dbd5118e703') in 0.014539 seconds 
+  Import took 0.018029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.612354 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86b869e05de442da88880ccea43f74c') in 0.018305 seconds 
+  Import took 0.021079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.388590 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bd019a5c3ef9652782d0723d0345f7') in 0.019102 seconds 
+  Import took 0.022415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.591280 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab89febb99aa959ea4ea24dabf5ee6a3') in 0.013663 seconds 
+  Import took 0.017576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.199087 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fff965c4cb83df518cfac766c8944a7') in 0.012178 seconds 
+  Import took 0.014723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.417610 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9528c6467250dd08f024d18bbc1422e') in 0.017484 seconds 
+  Import took 0.020893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.789482 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cce1b968bc54872712e062355454f7') in 0.017416 seconds 
+  Import took 0.020814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.630668 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1836c34f07f0a4d307ed98c520bdd8') in 0.017761 seconds 
+  Import took 0.020977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.796301 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6e67aed07ad2f7c2a875eef5932c7c') in 0.017373 seconds 
+  Import took 0.020296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.201579 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519cd5ef72e1fc9c024deaaff46287fb') in 0.013694 seconds 
+  Import took 0.016769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.420131 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f5e8c1dee551c2a2abb11b87c21c58') in 0.017535 seconds 
+  Import took 0.020497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.023325 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de8c4e9efedae3638524497b77ff291') in 0.019464 seconds 
+  Import took 0.022812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.431842 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41029603cbff8903c9488a633722cc8a') in 0.017928 seconds 
+  Import took 0.021473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.197107 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295918f6fb4b88f4cea87ea6162d6c9c') in 0.013554 seconds 
+  Import took 0.018023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613386 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330112489b1434636785e39a502335f4') in 0.018908 seconds 
+  Import took 0.021793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.832574 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014c8e6faed77f6f8751a96fe16929e0') in 0.019885 seconds 
+  Import took 0.023149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.806466 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf24b5cecb775b046a2e9c8b121169c') in 0.017721 seconds 
+  Import took 0.021461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.800906 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f090a6ed3b68542b134b4eacd09d23') in 0.012048 seconds 
+  Import took 0.014619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.965471 seconds.
+  path: Assets/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d67b6d8e57dc3448a1c4c529b93815e') in 0.013699 seconds 
+  Import took 0.016922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.251294 seconds.
+  path: Assets/stairs
+  artifactKey: Guid(ea0befbfae3a8bb4a97113a36e8d14a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs using Guid(ea0befbfae3a8bb4a97113a36e8d14a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c2a789c20d0ba3a46b19addfcea37e') in 0.008103 seconds 
+  Import took 0.010420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.925225 seconds.
+  path: Assets/stairs/New Material.mat
+  artifactKey: Guid(db503b5c810a84d42b3ee2449d30107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/New Material.mat using Guid(db503b5c810a84d42b3ee2449d30107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ced4e9aaaf01bfddd13a41edacd2eb') in 0.015930 seconds 
+  Import took 0.019383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.424585 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3f6b3814e934670ef517bb038f4cb7') in 0.017524 seconds 
+  Import took 0.021560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.467248 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6fa52e173e9988cf78a5160a209be4') in 0.013855 seconds 
+  Import took 0.018061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.855417 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758b7c4a148c6ace991918d4612e75c7') in 0.014254 seconds 
+  Import took 0.016935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.262949 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d021ad70b9bfefa66f5d43d87879f97') in 0.011184 seconds 
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.427242 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0bf17b022323798a5dd25cb04065e8') in 0.010391 seconds 
+  Import took 0.013434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.681691 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ced4752dfbc2787416bf0d98f768a7') in 0.015286 seconds 
+  Import took 0.018607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.523583 seconds.
+  path: Assets/stairs/step 1.prefab
+  artifactKey: Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/step 1.prefab using Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4126783369c54c881c3fcb26c9d9cff') in 0.018031 seconds 
+  Import took 0.020588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003459 seconds.
+  path: Assets/stairs/step 1.prefab
+  artifactKey: Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/step 1.prefab using Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4126783369c54c881c3fcb26c9d9cff') in 0.007633 seconds 
+  Import took 0.010646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133036 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6d67fa124cda81444f6deb2ed76c4c') in 0.012254 seconds 
+  Import took 0.014878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.039346 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0520754ab27ed9b9c1072a38461f3f') in 0.012681 seconds 
+  Import took 0.015185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/stairs/step.prefab
+  artifactKey: Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/step.prefab using Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c519a83d423a8c0b4a1f90107523767c') in 0.013181 seconds 
+  Import took 0.015950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.386243 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cf44ce37e6cc179d01fecee74692ae') in 0.009912 seconds 
+  Import took 0.012604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/stairs/step.prefab
+  artifactKey: Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/step.prefab using Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7990ab42d3e1f86f614ddaa0aab1526c') in 0.008958 seconds 
+  Import took 0.011481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.650270 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ff490f0fb66377fed235920deec242') in 0.015369 seconds 
+  Import took 0.017973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/stairs/step.prefab
+  artifactKey: Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/step.prefab using Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0438ee24d59844bb1b39cec9a844f614') in 0.009512 seconds 
+  Import took 0.011807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.577729 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbb74830ecc0caec96913f9f0ef5b2a') in 0.020636 seconds 
+  Import took 0.023116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.048328 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc7f8907b998f16c60493db234e2252') in 0.023837 seconds 
+  Import took 0.028347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797026 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a45e86db341feb2ff76d9456ba9b691') in 0.019594 seconds 
+  Import took 0.022365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.370711 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae97ca91eb73c6ee8fa58ff0ddc87dd') in 0.022532 seconds 
+  Import took 0.025449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.759742 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fc69dc6ec99e6aeea252345061ae29') in 0.020251 seconds 
+  Import took 0.024112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.803929 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f98ac083d17e737f5067b27905b94ec') in 0.017759 seconds 
+  Import took 0.020366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.653611 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ffda88226abf2a9d279a5a45ab7a2f') in 0.018308 seconds 
+  Import took 0.020864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.431316 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa11678f7b66c9589970e5dea62fa4b') in 0.020597 seconds 
+  Import took 0.023659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/stairs/step.prefab
+  artifactKey: Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/step.prefab using Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc624abef53ef1ae254148adde0f2509') in 0.011042 seconds 
+  Import took 0.014645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.014592 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dcd9b650ae42ddd333e7200dbd375a') in 0.016872 seconds 
+  Import took 0.019643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/stairs/step.prefab
+  artifactKey: Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/step.prefab using Guid(ca400051d9b38384aa72cb28888c3c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd91486cad7dc77a4374c9b629eb31d') in 0.012070 seconds 
+  Import took 0.014882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.690474 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fb9181ffdb69a253a488824158c06b') in 0.017712 seconds 
+  Import took 0.022225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.692272 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8339f467b6329b0d55ad0b90960000') in 0.014902 seconds 
+  Import took 0.017552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.651964 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a56b23ac43a7b7c1fe14bacad90fd3') in 0.017562 seconds 
+  Import took 0.020079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.955122 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f08e3b23f463034e41339fc6fd3aef9') in 0.017785 seconds 
+  Import took 0.021156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.873238 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15043efc96a0e9acae0a1015c3841d42') in 0.020227 seconds 
+  Import took 0.025015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.590699 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0db4e1ef47b595501a547a68d506a8') in 0.013963 seconds 
+  Import took 0.017583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.817432 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b42db95ed2174bb00efc266e4ecdc88') in 0.009597 seconds 
+  Import took 0.013244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.235651 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0edb121f867885836522ac81341650e') in 0.019284 seconds 
+  Import took 0.022119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.402716 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5141c84baca65fa56c1773e2cd0baf41') in 0.014084 seconds 
+  Import took 0.016958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.595502 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d931422c0344155036c1298ed0f062') in 0.013537 seconds 
+  Import took 0.016957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.609792 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609116c5aff675935fd6201f91658a4d') in 0.018905 seconds 
+  Import took 0.021431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.994262 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31f053d63bedf87025357a57838361b') in 0.016295 seconds 
+  Import took 0.019178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.621504 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b8f0b69939a4765a8cb5a6f7a17815') in 0.019263 seconds 
+  Import took 0.022304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.810546 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0827691b69c36e1dc7332bfb98527a0f') in 0.015179 seconds 
+  Import took 0.019256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.220338 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b505ad050d462d76b11fe3a09b9a0596') in 0.018201 seconds 
+  Import took 0.021736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.840798 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e1af49ed3f895ec27c376419dd1363') in 0.016929 seconds 
+  Import took 0.019402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.767468 seconds.
+  path: Assets/stairs/New Material 1.mat
+  artifactKey: Guid(c8bc11b4c79fe3b449e775ddfeb7db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/New Material 1.mat using Guid(c8bc11b4c79fe3b449e775ddfeb7db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1620ed7968d08dfc41a153c3e4e0b3') in 0.012741 seconds 
+  Import took 0.016284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.554435 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6066d3ec31f4d44e316f407e3199c843') in 0.015288 seconds 
+  Import took 0.017864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.229694 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0517dccfa71531ad22d3aa9903cbe153') in 0.010849 seconds 
+  Import took 0.013944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000969 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a45611c0124c043c030883f09c4041') in 0.012236 seconds 
+  Import took 0.014707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.232714 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70042b2faacad3a843f13fcb3c75c5f1') in 0.014885 seconds 
+  Import took 0.019218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.100872 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc78fada88e72c0d13f97f6e6c640ab') in 0.016747 seconds 
+  Import took 0.019367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.388531 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6bd04776b788815901829f5514b6a2') in 0.018888 seconds 
+  Import took 0.021945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.413867 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b09b9a40b459c184efd3b692a120634') in 0.014983 seconds 
+  Import took 0.017910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.992116 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890d541ad4303393bf04cb04fba9fe8f') in 0.015599 seconds 
+  Import took 0.019107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.434532 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9343e9d6a4863c10eb43129bdc8ba3') in 0.022120 seconds 
+  Import took 0.024767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.616657 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3c4467b011449a6d16a31268abf2e9') in 0.021153 seconds 
+  Import took 0.025006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.203463 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41486ee79ef20254b60601337cded2b8') in 0.020918 seconds 
+  Import took 0.024042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.571985 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecd6019c0aa2ef6ee261ba8dea8c8d2') in 0.016261 seconds 
+  Import took 0.019643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.595194 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e831be27732cc38ca59fe7ed2860014f') in 0.017732 seconds 
+  Import took 0.020902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184126 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc12505cd59fa14bf1c12bc41ffecb6') in 0.015739 seconds 
+  Import took 0.018372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.445348 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dda26fdbf0a971e8607c331e24cbeb4') in 0.017599 seconds 
+  Import took 0.020991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.199135 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b418bf8a8908efe793a766a5494c91b2') in 0.017330 seconds 
+  Import took 0.020774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.866724 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4a4ba9f18e6872f1afbf5cca6dff4b') in 0.014289 seconds 
+  Import took 0.016933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.709459 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b10b5646ed62664f032d23ecd103607') in 0.015382 seconds 
+  Import took 0.018205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.668759 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c901e91eb8c240109df9381938540075') in 0.013563 seconds 
+  Import took 0.017861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.796264 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc2b18b1adeabea522713d8ee0c20a3') in 0.017905 seconds 
+  Import took 0.020577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.399349 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4b301d634b509a498ecca0d170a6fc') in 0.015815 seconds 
+  Import took 0.018389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.242341 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2b422a7c46fb3318aff7645f65c5aa') in 0.017260 seconds 
+  Import took 0.020185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.001616 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2166e21136681e3ed4ceb389b363c17f') in 0.020390 seconds 
+  Import took 0.023344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.028775 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a1949f12b2005fdb167d9c73a1a154') in 0.018587 seconds 
+  Import took 0.021378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.837340 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65e107f022c3aa0c873d5a7c92c7a43') in 0.016488 seconds 
+  Import took 0.019519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.191899 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667cf0ed09d6268d92bb0872d6f78f66') in 0.014174 seconds 
+  Import took 0.016838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.882608 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b3487adc789a6645dc4b23dab07d70') in 0.015606 seconds 
+  Import took 0.018758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.809165 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a877ae076d84f713d9f7b9a7fd3644') in 0.012619 seconds 
+  Import took 0.015371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.754388 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191580b6eb01a5dc9a01405063b83cda') in 0.012705 seconds 
+  Import took 0.015439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.949574 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846448149d254091cad27c2f585d8988') in 0.014468 seconds 
+  Import took 0.017652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.229233 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbfc31af81fb741982ec91c04843bd4') in 0.013205 seconds 
+  Import took 0.016055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.214274 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dec0a454d74a34a8c0ee0b3b20e6d6') in 0.017680 seconds 
+  Import took 0.022540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.632826 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b3cce27dabfd731211ea665b5abe73') in 0.017823 seconds 
+  Import took 0.020726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.206159 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8de9636477581378a1d19fc8dc12cb3') in 0.019461 seconds 
+  Import took 0.022227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.004453 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851f798164575446cf4da957562a657e') in 0.014592 seconds 
+  Import took 0.017739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.621663 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9359629c99cba3894b0b36f09ba51a1') in 0.019791 seconds 
+  Import took 0.022995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.710577 seconds.
+  path: Assets/stairs/New Material 2.mat
+  artifactKey: Guid(e67d6076fce98a649a66f506b537ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/New Material 2.mat using Guid(e67d6076fce98a649a66f506b537ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d95cbc8cf13fb860aaca800788f8c7') in 0.024613 seconds 
+  Import took 0.029589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.198298 seconds.
+  path: Assets/stairs/stair.prefab
+  artifactKey: Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/stair.prefab using Guid(1780eb49ff799884e89c5db7a32dd885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde709ff6dbadf7856595fa337b43845') in 0.015036 seconds 
+  Import took 0.018354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.934864 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0a2495cb5d4091745e94bf0d5b9bce') in 0.010110 seconds 
+  Import took 0.012671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0a2495cb5d4091745e94bf0d5b9bce') in 0.004492 seconds 
+  Import took 0.008095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.149698 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5d84484d2adac0fe3f505e4e14cd0b') in 0.017992 seconds 
+  Import took 0.020718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.399449 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d63f4c1db3fcdb1562f03a9c82f513') in 0.010846 seconds 
+  Import took 0.013861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.995642 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0032425d039cf704ab2caa4d27968a6c') in 0.015793 seconds 
+  Import took 0.019242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.012674 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d02210f7943d1dad5fcb16520d68da4') in 0.019133 seconds 
+  Import took 0.021743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.648302 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f75685b499481cd3de8d8c02e23c03') in 0.019799 seconds 
+  Import took 0.023651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.571021 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08736cb911a796510362d60a0ff06ab0') in 0.015830 seconds 
+  Import took 0.018145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.004296 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fda303dfd1946f14acb413a79a64344') in 0.019363 seconds 
+  Import took 0.022341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.421823 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b466e4d6b659d9dcc6ed5da047f161') in 0.016106 seconds 
+  Import took 0.019617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.380142 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97528f92a474a21d7b4f5c86be445b2') in 0.018964 seconds 
+  Import took 0.022213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.611264 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5174afbf65e045905c9e2374657e2e8') in 0.013034 seconds 
+  Import took 0.016892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.039989 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e22804f8382c5d2602f26d4689c58b3') in 0.014386 seconds 
+  Import took 0.016936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.614314 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb5a0e44dc9e043182cf62a3384dca1') in 0.018692 seconds 
+  Import took 0.021948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.886059 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e170edba4ef6355a463ec591aa5e4fe') in 0.016348 seconds 
+  Import took 0.018897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.868464 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb997b2d0fd7c6e61a7ea489e72133ad') in 0.018980 seconds 
+  Import took 0.022204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.594123 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec808a43bc376af675e72e7976b4716') in 0.015113 seconds 
+  Import took 0.018350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.324854 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ab902db5752fb75f4c05c918dbd60c') in 0.017712 seconds 
+  Import took 0.020678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.387455 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5a792f99bb866b9d7bb87dd1ad94e6') in 0.009306 seconds 
+  Import took 0.011843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.042698 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c84121be8eae3d0d76a1aafe970b0e8') in 0.014668 seconds 
+  Import took 0.017428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.661410 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2565d874b45c748b56990010c74badc7') in 0.016709 seconds 
+  Import took 0.020322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.040716 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08ab76689bb045eb9750a979ac4ae9f') in 0.014490 seconds 
+  Import took 0.017477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.596268 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ccb518bd45b2928b2a595252b55f45') in 0.013981 seconds 
+  Import took 0.017942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.101573 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550423912b75c58904920701efeb13b0') in 0.015938 seconds 
+  Import took 0.018574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.440991 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c32b89a592611b81a85be1ed61c089') in 0.012316 seconds 
+  Import took 0.015050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.422381 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e49960cd13a88e98606f29a574942a') in 0.016545 seconds 
+  Import took 0.019200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.999719 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9131efc4386f0f790f3ada0f6cecf849') in 0.014049 seconds 
+  Import took 0.017025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.812091 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b74b246af275942ca97d0595f3e855') in 0.018616 seconds 
+  Import took 0.021401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.282946 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bc67948dedc552fcf428b1801069cd') in 0.014793 seconds 
+  Import took 0.017323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.543803 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140ebcc74fa4462f71d71ce43aafc685') in 0.017586 seconds 
+  Import took 0.020317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.014244 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a04f24647439343ad86587eed891e9b') in 0.021526 seconds 
+  Import took 0.024313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.611407 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462c29450ae77df2d79363a928a20431') in 0.013107 seconds 
+  Import took 0.015876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.619646 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db92fd12d06c78b8ba8eb6177563995c') in 0.020294 seconds 
+  Import took 0.023053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.802466 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc609077b15718adfc55c82cf26899a2') in 0.015261 seconds 
+  Import took 0.019023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.228059 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3e357db99c74c39f6e322b21161d25') in 0.017621 seconds 
+  Import took 0.020150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.407147 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74811da14eddea795a4a5f57c32ba45') in 0.014760 seconds 
+  Import took 0.017296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.544254 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb501b8da0d1398f560a346777d9829') in 0.013637 seconds 
+  Import took 0.017637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.208527 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfc4723b3c9eaae7a9669ef2da3fc94') in 0.022384 seconds 
+  Import took 0.025569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.457032 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d04313169a6503c79069608984e9c44') in 0.018849 seconds 
+  Import took 0.021761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.820796 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afc397c1456c7588c44dbc09b08016e') in 0.020815 seconds 
+  Import took 0.024522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.198490 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c99e797b4eb94b378b9986209fe22f') in 0.015640 seconds 
+  Import took 0.018910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.800190 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8010b0fa70a4ef0f8bbefe95cf97bb4') in 0.016691 seconds 
+  Import took 0.019641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.045677 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b01adcd67d093b2ce128b331d9dba0') in 0.012933 seconds 
+  Import took 0.015611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.204773 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04ee47de78f2e7247f70119a987e32a') in 0.012562 seconds 
+  Import took 0.014972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.287637 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2214b2b478f47ffdf1bab5713329bfe0') in 0.018740 seconds 
+  Import took 0.021351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.625949 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52aeaac968ac17164a74ea152237336') in 0.017655 seconds 
+  Import took 0.020635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.182373 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a81e70adfd722965d0c58d9b011061') in 0.011758 seconds 
+  Import took 0.015111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.318616 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c476d42d82cc606cfc7b8195c782f5c') in 0.014413 seconds 
+  Import took 0.017167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.396252 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8460aceae57eb768f98936d0a7065a36') in 0.016304 seconds 
+  Import took 0.018966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.021472 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1739bd241494daefaf2d985cd41fee1') in 0.015234 seconds 
+  Import took 0.017650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.212165 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9253fa4d35960ef090788417a4bd5150') in 0.014858 seconds 
+  Import took 0.017457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.390601 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b386808609bd2f64b641f98ba40392') in 0.011930 seconds 
+  Import took 0.015824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.223143 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2fa1f3d0982096387c603f551002e9') in 0.015449 seconds 
+  Import took 0.017972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.428599 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da82fae33e961c5e78494704f11111bd') in 0.014486 seconds 
+  Import took 0.018807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.022121 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fc0630fc14bbcb37c1467179df5dff') in 0.015588 seconds 
+  Import took 0.018285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.992181 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fced4cb4bf10f7663f3eea7c63a24b') in 0.014762 seconds 
+  Import took 0.017647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.593942 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ed92e763933bb123f86e89128ac66') in 0.009963 seconds 
+  Import took 0.012646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.008618 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c11232949c3410f1f62d375abf5473') in 0.012951 seconds 
+  Import took 0.015715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.560477 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46efec541bbe1088d235d3cf4565bd12') in 0.014796 seconds 
+  Import took 0.017167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.585904 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eeb4930e173f663f5dc25fb49febdb8') in 0.014214 seconds 
+  Import took 0.017013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.596992 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb05c46a59bfa6d061f29156935b9224') in 0.014743 seconds 
+  Import took 0.017207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.652930 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63b4a62e068c7ca6fafb3fa046a9388') in 0.018705 seconds 
+  Import took 0.021914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.770511 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dee71fddd9be974045b5f8e253184f5') in 0.017654 seconds 
+  Import took 0.020174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40219.537854 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14ae1ce17bfe3126f964fe7a66415f3') in 0.022438 seconds 
+  Import took 0.026118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.839761 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faab5d2a11a7822564fb83f8bf74ad16') in 0.017429 seconds 
+  Import took 0.020761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.984228 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e36be3a1b0aa0cbdffdea927a9e065e') in 0.013989 seconds 
+  Import took 0.016694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.237202 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97780c6cbaab8e32048cd95b9a85ffe') in 0.021887 seconds 
+  Import took 0.026105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.010143 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2615540b99591211eb060393709978c') in 0.018713 seconds 
+  Import took 0.022265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.987378 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbb4d9c8270b08a65258139540c6d1a') in 0.013493 seconds 
+  Import took 0.017592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.198817 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fc7fa5e1f1c8b258d6c24f397ab8b9') in 0.015148 seconds 
+  Import took 0.018578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.064855 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5135092ce5ac649e0b00fc5bd812d37f') in 0.028599 seconds 
+  Import took 0.032846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.176618 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90a6df8041f883fc1e9370f469be3c7') in 0.024198 seconds 
+  Import took 0.028847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.815183 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c1ba38845651ae08a94efe96b66724') in 0.021406 seconds 
+  Import took 0.025659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.836957 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97af84fad471a73f0851f0ad029b6629') in 0.021636 seconds 
+  Import took 0.025102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.661557 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4650ded93f174d84a080eb8bb05315') in 0.021445 seconds 
+  Import took 0.024502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.235609 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65eece2ad0599ae7c4e067122110cb2f') in 0.022797 seconds 
+  Import took 0.033561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.508256 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b842c77b3a67a13fe0ac6b05d6cebe50') in 0.012131 seconds 
+  Import took 0.014822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.256880 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e6b29e51affe7dbb9a8a2ed90d88e7') in 0.028930 seconds 
+  Import took 0.037568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.152602 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17436e7df7b878a208340e4d3bb2c32') in 0.016927 seconds 
+  Import took 0.020160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.760902 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bcdb23e2a1e818e3b0219c22528cba') in 0.359933 seconds 
+  Import took 0.363725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.473294 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f8f6fbd348ffb86ad129968e6466af') in 0.073276 seconds 
+  Import took 0.464969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.694624 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec86293cd0cf36d66ee1bcbfdc28506') in 0.362204 seconds 
+  Import took 0.425040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.188322 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5626ff7a4ebbeeb2d530720ebdbbb139') in 0.019354 seconds 
+  Import took 0.023605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.990740 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df68c62cac76d212ad7e3bba7c1a2161') in 0.019865 seconds 
+  Import took 0.024993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.601402 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0660234fc3813599d311441c66e72f2') in 0.018954 seconds 
+  Import took 0.023275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388683 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ae6fe00ca9827bc22382eb0d266219') in 0.016771 seconds 
+  Import took 0.023106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.412916 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64508d120f4f5bc17133755af8bc6b7d') in 0.022700 seconds 
+  Import took 0.025774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.192356 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53461e4412f1db06937153ba495aca6') in 0.023978 seconds 
+  Import took 0.028822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831806 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae45091332d471aaa573f0f83daac1f') in 0.430084 seconds 
+  Import took 0.433021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.589896 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbf249a3fce62471ec6185382ed2f11') in 0.046328 seconds 
+  Import took 0.050260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.473381 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d15b73f17ecf8581df039837698f389') in 0.020704 seconds 
+  Import took 0.025248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.375986 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41b8a226f89f35de73a1ee3a73b5621') in 0.018844 seconds 
+  Import took 0.023697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.304418 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949cfb304c19ff6b81ff1728fe9eff35') in 0.021243 seconds 
+  Import took 0.025877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.625699 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e434b08cb4e32085ecf3172d7d4a262') in 0.024391 seconds 
+  Import took 0.028224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.591822 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b452127e9d483c99584326df762e00') in 0.021092 seconds 
+  Import took 0.024988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.437288 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cb42fabad6ae2919d9b4227a72babf') in 0.114497 seconds 
+  Import took 0.230906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.627451 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c379499c5106a237fd16b9d45778861') in 0.034284 seconds 
+  Import took 0.037740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.915691 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea7cd25268d21764c44c36dd69be0fc') in 0.241704 seconds 
+  Import took 0.344981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.404985 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5c8137a3d9abaaf5bad25226281fb6') in 0.023239 seconds 
+  Import took 0.026440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.726730 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd072e1946acd1b8e9c16f95171b9f8b') in 0.021817 seconds 
+  Import took 0.025703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.579311 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8278f1d016360eba3a6099b10da9d332') in 0.019564 seconds 
+  Import took 0.023077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.428189 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3297ff8f1b7f85f82508c7230654d163') in 0.018048 seconds 
+  Import took 0.022328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.807203 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b386187a4674ad0f2ad99811630e94') in 0.020013 seconds 
+  Import took 0.023657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.824211 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca698777fbd0513987a03a535549e9c1') in 0.018134 seconds 
+  Import took 0.021768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.874784 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1628d09a07413766ec3964f2412216db') in 0.427455 seconds 
+  Import took 0.430831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.699676 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b423dcd5b8d103b97b34d6895d6f4999') in 0.153943 seconds 
+  Import took 0.156790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.753185 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9a6633f7497a9fa2cd07f74bd52fc5') in 0.017978 seconds 
+  Import took 0.024664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.617050 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd0f9a5857644a68c28b539c9579d6') in 0.038431 seconds 
+  Import took 0.042878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007858 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd0f9a5857644a68c28b539c9579d6') in 0.014319 seconds 
+  Import took 0.017080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.052669 seconds.
+  path: Assets/stairs/door.prefab
+  artifactKey: Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/door.prefab using Guid(6e8928430c3ae584cacb10acc880c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dfeb2d5c479ffb9cbbe389885893cd') in 0.020142 seconds 
+  Import took 0.023164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.033207 seconds.
+  path: Assets/stairs/New Material 1.mat
+  artifactKey: Guid(c8bc11b4c79fe3b449e775ddfeb7db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/New Material 1.mat using Guid(c8bc11b4c79fe3b449e775ddfeb7db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0c51b0453df957cf0d8655bb3a89e8') in 0.026532 seconds 
+  Import took 0.029414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/stairs/New Material 2.mat
+  artifactKey: Guid(e67d6076fce98a649a66f506b537ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/New Material 2.mat using Guid(e67d6076fce98a649a66f506b537ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de00599ad7f283e03f4707ebf966031') in 0.019350 seconds 
+  Import took 0.023514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/stairs/New Material.mat
+  artifactKey: Guid(db503b5c810a84d42b3ee2449d30107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairs/New Material.mat using Guid(db503b5c810a84d42b3ee2449d30107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d404e2ffc0dae28f84f94b48239c676') in 0.017843 seconds 
+  Import took 0.022756 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
