@@ -7,13 +7,14 @@ public class playerMovement : MonoBehaviour
 	public int speed = 10;
 	Rigidbody rb;
 	public int maxJumps = 2;
-	public float jumpForce = 30.0f;
+	public float jumpForce = 8.0f;
 	int jumping = 1;
 	int x = 0;
 	bool left = false;
 	bool right = false;
 	float timer = 0;
-	bool timerunning = false; 
+	bool timerunning = false;
+    bool Grounded = true; 
 	// Start is called before the first frame update
 	void Start()
     {
@@ -24,14 +25,14 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if (Input.GetKey(KeyCode.A) && left == false && timerunning == false)
+		if (Input.GetKey(KeyCode.A) && left == false && timerunning == false && Grounded == true)
 		{
 			x = x - 3;
 			transform.position = new Vector3(x, transform.position.y, transform.position.z);
 			timer = 30.0f;
 			timerunning = true;
 		}
-		if (Input.GetKey(KeyCode.D) && right == false && timerunning == false)
+		if (Input.GetKey(KeyCode.D) && right == false && timerunning == false && Grounded == true)
 		{
 			x = x + 3;
 			transform.position = new Vector3(x, transform.position.y, transform.position.z);
@@ -43,6 +44,7 @@ public class playerMovement : MonoBehaviour
 		{
 			jumping = jumping - 1;
 			rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+			Grounded = false;
 		}
         if(timer > 0)
 		{
@@ -60,18 +62,21 @@ public class playerMovement : MonoBehaviour
 			jumping = maxJumps;
 			left = false;
 			right = false;
+			Grounded = true;
 		}
 		if (other.gameObject.CompareTag("LeftLane"))
 		{
 			left = true;
 			right = false;
 			jumping = maxJumps;
+			Grounded = true;
 		}
 		if (other.gameObject.CompareTag("RightLane"))
 		{
 			jumping = maxJumps;
 			left = false;
 			right = true;
+			Grounded = true;
 		}
 	}
 }
