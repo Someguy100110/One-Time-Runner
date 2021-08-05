@@ -14,7 +14,8 @@ public class playerMovement : MonoBehaviour
 	bool right = false;
 	float timer = 0;
 	bool timerunning = false;
-    bool Grounded = true; 
+    bool Grounded = true;
+	public float smashForce = 5.0f;
 	// Start is called before the first frame update
 	void Start()
     {
@@ -29,14 +30,14 @@ public class playerMovement : MonoBehaviour
 		{
 			x = x - 3;
 			transform.position = new Vector3(x, transform.position.y, transform.position.z);
-			timer = 30.0f;
+			timer = 60.0f;
 			timerunning = true;
 		}
 		if (Input.GetKey(KeyCode.D) && right == false && timerunning == false && Grounded == true)
 		{
 			x = x + 3;
 			transform.position = new Vector3(x, transform.position.y, transform.position.z);
-			timer = 30.0f;
+			timer = 60.0f;
 			timerunning = true;
 		}
 		transform.Translate(Vector3.forward * speed * Time.deltaTime);
@@ -53,6 +54,10 @@ public class playerMovement : MonoBehaviour
         else 
 		{
 			timerunning = false;
+		}
+		if (Input.GetKey(KeyCode.S) && Grounded == false)
+		{
+			rb.AddForce(Vector3.down * smashForce, ForceMode.Impulse);
 		}
 	}
     void OnCollisionEnter(Collision other)
@@ -78,6 +83,14 @@ public class playerMovement : MonoBehaviour
 			right = true;
 			Grounded = true;
 		}
+		if (other.gameObject.CompareTag("Enemy"))
+		{
+			this.gameObject.SetActive(false);
+		}
+	}
+	void OnTriggerEnter(Collider other)
+	{
+
 	}
 }
-//Ask what the function for button pressed is instead of button held
+

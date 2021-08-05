@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - RightLane
   - LeftLane
+  - Enemy
   layers:
   - Default
   - TransparentFX
