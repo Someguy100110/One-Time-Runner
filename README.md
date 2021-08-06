@@ -15,7 +15,7 @@ Spacebar
 Special
 
 ## Challenges
-A few larger challenges that occured during the development process of the game were mostly arguments about the genre.
+A few larger challenges that occured during the development process of the game were mostly arguments about the genre and how we didn't have enough time to begin with to finish the project by the given quota.
 
 ## Next Step
 A couple things we weren't able to add were, (wall running, end game portals, more graphics, and a detailed death entity)
