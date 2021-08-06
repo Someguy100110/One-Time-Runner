@@ -1,943 +1,1182 @@
 Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 8034 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/jacob/Desktop/Unity Folder TWO/One-Time-Runner/Group project
+C:/Users/ninja/Documents/GitHub/One-Time-Runner/Group project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59267
-Successfully changed project path to: /Users/jacob/Desktop/Unity Folder TWO/One-Time-Runner/Group project
-/Users/jacob/Desktop/Unity Folder TWO/One-Time-Runner/Group project
+63710
+Successfully changed project path to: C:/Users/ninja/Documents/GitHub/One-Time-Runner/Group project
+C:/Users/ninja/Documents/GitHub/One-Time-Runner/Group project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/jacob/Desktop/Unity Folder TWO/One-Time-Runner/Group project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ninja/Documents/GitHub/One-Time-Runner/Group project/Assets
 GfxDevice: creating device client; threaded=0
-2021-08-05 19:48:07.685 Unity[7148:514807] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 650 (low power)
-2021-08-05 19:48:07.685 Unity[7148:514807] Metal devices available: 1
-2021-08-05 19:48:07.685 Unity[7148:514807] 0: Intel(R) Iris(TM) Plus Graphics 650 (low power)
-2021-08-05 19:48:07.686 Unity[7148:514807] Using device Intel(R) Iris(TM) Plus Graphics 650 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 650
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4029 MB
+    Driver:   23.21.13.8873
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Trying to register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll (that doesn't exist). Retrying without overrides.
-Platform support module is not available: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Trying to register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll (that doesn't exist). Retrying without overrides.
-Platform support module is not available: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Trying to register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll (that doesn't exist). Retrying without overrides.
-Platform support module is not available: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Trying to register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll (that doesn't exist). Retrying without overrides.
-Platform support module is not available: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.001291 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002687 seconds.
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 34.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.722 seconds
+- Completed reload, in  4.592 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3722ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (4592ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (723ms)
-			LoadAssemblies (43ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
+			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (260ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (186ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009850 seconds.
+Registered in 0.005524 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.265 seconds
+- Completed reload, in  1.181 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2267ms)
-		BeginReloadAssembly (490ms)
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (165ms)
-		EndReloadAssembly (1623ms)
-			LoadAssemblies (330ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (766ms)
+			SetupTypeCache (333ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (356ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (362ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.7 MB.
-System memory in use after: 137.8 MB.
+System memory in use before: 64.9 MB.
+System memory in use after: 64.9 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1827.
-Total: 2.497259 ms (FindLiveObjects: 0.206318 ms CreateObjectMapping: 0.056890 ms MarkObjects: 2.122388 ms  DeleteObjects: 0.110525 ms)
+Total: 1.965200 ms (FindLiveObjects: 0.174300 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.680700 ms  DeleteObjects: 0.063800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/SpawnTrack.cs
-  artifactKey: Guid(5bfa75da13fbe9a469d0e90c184a3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpawnTrack.cs using Guid(5bfa75da13fbe9a469d0e90c184a3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0d418b584f40da6664e6f51b5e61e4') in 0.366881 seconds 
-  Import took 0.370123 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002501 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.432 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1433ms)
-		BeginReloadAssembly (183ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (96ms)
-		EndReloadAssembly (1129ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (479ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (344ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.0 MB.
-System memory in use after: 142.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1830.
-Total: 3.309940 ms (FindLiveObjects: 0.231055 ms CreateObjectMapping: 0.051544 ms MarkObjects: 2.990278 ms  DeleteObjects: 0.035572 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 41.530268 seconds.
-  path: Assets/Scripts/SpawnTrack.cs
-  artifactKey: Guid(5bfa75da13fbe9a469d0e90c184a3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpawnTrack.cs using Guid(5bfa75da13fbe9a469d0e90c184a3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d82e94c9826e617b32db532ecc34cf') in 0.009025 seconds 
-  Import took 0.012956 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006399 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.430 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1430ms)
-		BeginReloadAssembly (183ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (105ms)
-		EndReloadAssembly (1161ms)
-			LoadAssemblies (178ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (415ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (350ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.3 MB.
-System memory in use after: 142.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1833.
-Total: 2.704457 ms (FindLiveObjects: 0.155877 ms CreateObjectMapping: 0.044571 ms MarkObjects: 2.483556 ms  DeleteObjects: 0.019327 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003641 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.244 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1246ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1015ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (384ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (336ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.5 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 2.130590 ms (FindLiveObjects: 0.245559 ms CreateObjectMapping: 0.047368 ms MarkObjects: 1.797156 ms  DeleteObjects: 0.039666 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 265.217330 seconds.
-  path: Assets/Scripts/playerMovement.cs
-  artifactKey: Guid(a6559a760fe5742b6a33125dea0dbb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/playerMovement.cs using Guid(a6559a760fe5742b6a33125dea0dbb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bfc4f797f27600b3babaef366802fb') in 0.007321 seconds 
-  Import took 0.010062 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010662 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.537 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1538ms)
-		BeginReloadAssembly (217ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		EndReloadAssembly (1226ms)
-			LoadAssemblies (146ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (437ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (390ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (319ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.6 MB.
-System memory in use after: 142.7 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1839.
-Total: 2.148715 ms (FindLiveObjects: 0.255943 ms CreateObjectMapping: 0.058443 ms MarkObjects: 1.799443 ms  DeleteObjects: 0.034022 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4190.922767 seconds.
-  path: Assets/Scripts/EnemySquasher.cs
-  artifactKey: Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySquasher.cs using Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9f36f558fa0497daf4da18cd640cbe') in 0.071655 seconds 
-  Import took 0.114388 seconds .
+  path: Assets/Scenes/track.unity
+  artifactKey: Guid(b99a2d3f3a0655d4bbbd44cb5f23d1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/track.unity using Guid(b99a2d3f3a0655d4bbbd44cb5f23d1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910f95b2e73564a18392bf2866080a91') in 0.022585 seconds 
+  Import took 0.026769 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.367748 seconds.
-  path: Assets/Scripts/EnemySquasher.cs
-  artifactKey: Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySquasher.cs using Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fee192321bb3a2a5011236134ae107') in 0.010264 seconds 
-  Import took 0.025545 seconds .
+  Time since last request: 0.000464 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a52641e929af13bf0a77d6d8e15793') in 0.007353 seconds 
+  Import took 0.013265 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.012147 seconds.
-  path: Assets/Scripts/EnemySquasher.cs
-  artifactKey: Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySquasher.cs using Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16619c680bba6a0ff4a93a8051ae7d9') in 0.005470 seconds 
-  Import took 0.009527 seconds .
+  Time since last request: 775.444477 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5af85ef61e32f16a6a9437cc808f05') in 0.115524 seconds 
+  Import took 0.118676 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.735916 seconds.
-  path: Assets/Scripts/EnemySquasher.cs
-  artifactKey: Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySquasher.cs using Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c34136e0673c64a3dfb320052bd93ef') in 0.006703 seconds 
-  Import took 0.010654 seconds .
+  Time since last request: 16.269398 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4840e08e8ea1a948c9cbb8aa5e0bb6c9') in 0.100398 seconds 
+  Import took 0.104517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 362.242592 seconds.
-  path: Assets/Scripts/EnemySquasher.cs
-  artifactKey: Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySquasher.cs using Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c7c54182bab9414b58677037758371') in 0.020694 seconds 
-  Import took 0.090732 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009717 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.823 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1827ms)
-		BeginReloadAssembly (272ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (159ms)
-		EndReloadAssembly (1424ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (500ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (104ms)
-			SetupLoadedEditorAssemblies (511ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (385ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.9 MB.
-System memory in use after: 143.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 3.147212 ms (FindLiveObjects: 0.381711 ms CreateObjectMapping: 0.087179 ms MarkObjects: 2.620819 ms  DeleteObjects: 0.056046 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 132.601425 seconds.
-  path: Assets/Scripts/EnemySquasher.cs
-  artifactKey: Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySquasher.cs using Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba3e908284ceb2278e2d49cfa9a64a3') in 0.007865 seconds 
-  Import took 0.011220 seconds .
+  Time since last request: 5.449126 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770e5679c115c7b4b6ebcd3a76c88938') in 0.016937 seconds 
+  Import took 0.020622 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.939211 seconds.
-  path: Assets/Scripts/EnemySquasher.cs
-  artifactKey: Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySquasher.cs using Guid(3861f8f7519ae4db7a37505aadb976d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba3e908284ceb2278e2d49cfa9a64a3') in 0.004961 seconds 
-  Import took 0.007949 seconds .
+  Time since last request: 21.475604 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e572fb30982cb86d6acf6c37e50ce56e') in 0.027870 seconds 
+  Import took 0.031687 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006684 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.354 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1355ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1132ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (354ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.0 MB.
-System memory in use after: 143.1 MB.
+Received Import Request.
+  Time since last request: 7.996373 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9acbe118665c8ffd8f00a2549159a3') in 0.018426 seconds 
+  Import took 0.021277 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 2.804891 ms (FindLiveObjects: 0.249698 ms CreateObjectMapping: 0.075964 ms MarkObjects: 2.455300 ms  DeleteObjects: 0.022758 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006979 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.404 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1404ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1163ms)
-			LoadAssemblies (171ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (425ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (348ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.2 MB.
-System memory in use after: 143.3 MB.
+Received Import Request.
+  Time since last request: 3.801091 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bffdaab873e58b23380c72c8390ed7') in 0.013199 seconds 
+  Import took 0.021105 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 2.315977 ms (FindLiveObjects: 0.197315 ms CreateObjectMapping: 0.132716 ms MarkObjects: 1.962364 ms  DeleteObjects: 0.022398 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.289 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1290ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1051ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (347ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (287ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.4 MB.
-System memory in use after: 143.5 MB.
+Received Import Request.
+  Time since last request: 2.006889 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d75f43757b47c9cf0f4fd497eb3a2c5') in 0.023155 seconds 
+  Import took 0.029726 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 1.940070 ms (FindLiveObjects: 0.173154 ms CreateObjectMapping: 0.046408 ms MarkObjects: 1.699036 ms  DeleteObjects: 0.020642 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002852 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.394 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1395ms)
-		BeginReloadAssembly (175ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (84ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (432ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (361ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.6 MB.
-System memory in use after: 143.7 MB.
+Received Import Request.
+  Time since last request: 4.499897 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1847f7a8b866b4dd25fb1c198abeed') in 0.024160 seconds 
+  Import took 0.031684 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1854.
-Total: 1.912752 ms (FindLiveObjects: 0.184219 ms CreateObjectMapping: 0.039806 ms MarkObjects: 1.671256 ms  DeleteObjects: 0.016543 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003069 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.410 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1410ms)
-		BeginReloadAssembly (180ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (98ms)
-		EndReloadAssembly (1128ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (429ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (401ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (334ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.7 MB.
-System memory in use after: 143.8 MB.
+Received Import Request.
+  Time since last request: 8.149784 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730fd6fe264a1f801e5d27db880c8c56') in 0.014091 seconds 
+  Import took 0.017065 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1857.
-Total: 2.889002 ms (FindLiveObjects: 0.261008 ms CreateObjectMapping: 0.076407 ms MarkObjects: 2.527338 ms  DeleteObjects: 0.022857 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003862 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.412 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1413ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1195ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (461ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (373ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.9 MB.
-System memory in use after: 144.0 MB.
+Received Import Request.
+  Time since last request: 16.607454 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541ee78c8e6394baaf3c3169c275e1e0') in 0.016495 seconds 
+  Import took 0.021589 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1860.
-Total: 2.377598 ms (FindLiveObjects: 0.156517 ms CreateObjectMapping: 0.040820 ms MarkObjects: 2.156167 ms  DeleteObjects: 0.022920 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007703 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1424ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1175ms)
-			LoadAssemblies (209ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (352ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.1 MB.
-System memory in use after: 144.2 MB.
+Received Import Request.
+  Time since last request: 5.422746 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0b88b824f2efc0783a742eebc67255') in 0.017335 seconds 
+  Import took 0.021167 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1863.
-Total: 1.912892 ms (FindLiveObjects: 0.166964 ms CreateObjectMapping: 0.047367 ms MarkObjects: 1.680085 ms  DeleteObjects: 0.017477 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017913 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.494 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1494ms)
-		BeginReloadAssembly (149ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1245ms)
-			LoadAssemblies (243ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (453ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (354ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.3 MB.
-System memory in use after: 144.4 MB.
+Received Import Request.
+  Time since last request: 16.527866 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291cd5d861ce1d502b89254adc6a7262') in 0.014972 seconds 
+  Import took 0.019811 seconds .
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1866.
-Total: 2.290831 ms (FindLiveObjects: 0.289419 ms CreateObjectMapping: 0.059905 ms MarkObjects: 1.905743 ms  DeleteObjects: 0.034426 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 4.410089 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbfc05865e1e475f5aac1437f97fe35') in 0.016560 seconds 
+  Import took 0.019261 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.147253 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d29c92ee9474f21f6de15aaee7f62c') in 0.014202 seconds 
+  Import took 0.017501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.824351 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baf62e6d2a4704f997df5d30a54b90d') in 0.017342 seconds 
+  Import took 0.021094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.628414 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c57c7d56823f53e92260a66db79c322') in 0.014794 seconds 
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.156252 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd30df7c7d7fdeb843e0935929861cc') in 0.017813 seconds 
+  Import took 0.023136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.189495 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731dee51967b9cf9b1509628e74b154c') in 0.016808 seconds 
+  Import took 0.019706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.263440 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4f80e9904dff3a665f2b6922826dbc') in 0.017755 seconds 
+  Import took 0.020847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1088.429732 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480c95a3f01eee1d769af35a61ba47ae') in 0.034207 seconds 
+  Import took 0.036979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.981709 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfba7aa3ae4726c483f60669f58121b') in 0.023785 seconds 
+  Import took 0.026893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193884 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70611186ac25a5ae14ff2a49858eeca') in 0.026456 seconds 
+  Import took 0.031825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.443099 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c95fdec1e20fe19aff370ca0a18cea') in 0.020061 seconds 
+  Import took 0.027245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.592212 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d495795ba4347a599c71a13ee1bef5') in 0.027961 seconds 
+  Import took 0.032633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.458826 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3fe8cd31a17e9586139ec1679239c4') in 0.022398 seconds 
+  Import took 0.027774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.432075 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103f1132fff6288ad8a557020e26dc77') in 0.025974 seconds 
+  Import took 0.033007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.811867 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b9ae91b13281d505f8091d0c066074') in 0.020655 seconds 
+  Import took 0.028473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.199904 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9bf1296384bc12b45675ca34e93794') in 0.020386 seconds 
+  Import took 0.023594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.038067 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d858697f7f3241866896469b4d88ecd') in 0.021719 seconds 
+  Import took 0.024921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.792023 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c5bc1e1f3a4ea0ddeaf02172bac967') in 0.023901 seconds 
+  Import took 0.031021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.613337 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5e0de224adb30846f03630abc63d37') in 0.023963 seconds 
+  Import took 0.027942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.006312 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fedf369a160089f94f9e3b1a367b7c') in 0.020625 seconds 
+  Import took 0.026057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.808329 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a520c0bc1602282a8f460485e69168') in 0.019027 seconds 
+  Import took 0.024834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786092 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247352ecf39ab74e76fa672016eafb58') in 0.021876 seconds 
+  Import took 0.024512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.402348 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a94be4a05cbc7cff05c32e98fe95a2f') in 0.027421 seconds 
+  Import took 0.031883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.377801 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5c201a60d3d6169e404be7fa44ffa2') in 0.021950 seconds 
+  Import took 0.025033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.999299 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92327127a731532f07e0538ed54037eb') in 0.025035 seconds 
+  Import took 0.031778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.589791 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0a4e171479278897801fb77f9476ff') in 0.018983 seconds 
+  Import took 0.024684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.424214 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8eab28e576b7dc96f508d9deb203c8e') in 0.019448 seconds 
+  Import took 0.024262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.007456 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17473509bd9512bbec393ee058dfdbbb') in 0.018135 seconds 
+  Import took 0.020962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.446751 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aff7b38fa4fcde2d8f6196aa12b6494') in 0.027541 seconds 
+  Import took 0.030271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.585723 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2581c5508f87fbbb996129cc4f03f2') in 0.026661 seconds 
+  Import took 0.032074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.425508 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da8bd021e660b229f453fd908f884ef') in 0.021900 seconds 
+  Import took 0.028674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.602864 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85e61fc021a4a67a39c35bb7594a0f1') in 0.022409 seconds 
+  Import took 0.032731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.824169 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19a9e4720b9da65ad7472d083b2412d') in 0.029755 seconds 
+  Import took 0.032939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.588746 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356c590bbf436faba6d9bff41255852c') in 0.020040 seconds 
+  Import took 0.026232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.799302 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19688ecc8f233c7c17c9c5bfebb42208') in 0.025652 seconds 
+  Import took 0.029364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.245910 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3a91b9f02e2f476658c40e284cdfd') in 0.018524 seconds 
+  Import took 0.023188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.999065 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c04b3a4d2c47cf9fafd66978c0e8ef2') in 0.032602 seconds 
+  Import took 0.039233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.801404 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d4ebd16b559d2eaaf5b4f49152111a') in 0.023177 seconds 
+  Import took 0.028265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.960351 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ee74b3a1c39964f8027ae4b0c71baf') in 0.020203 seconds 
+  Import took 0.027663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.426673 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de83e527a5f28a6f0252f0ac7c11fa0') in 0.019852 seconds 
+  Import took 0.025159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.191770 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd89cad83e31693cd06996d786f5f00b') in 0.023191 seconds 
+  Import took 0.028792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.589312 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9694195a1848590efcaa99e3fcab5c70') in 0.019432 seconds 
+  Import took 0.022272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.806576 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798dbb3d9a2de6a7a31297583fc25e91') in 0.022690 seconds 
+  Import took 0.025797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.597578 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5463d50c58f14851b5230b7a83cf3016') in 0.027931 seconds 
+  Import took 0.031415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.823059 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd443a016c2306210dca639b0f1475666') in 0.009236 seconds 
+  Import took 0.013015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.209252 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fdcdd3d6a24384bde80dd9c3f9128d') in 0.013747 seconds 
+  Import took 0.018543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.564992 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd482713a3a51ddbf2eba36a8fdd9cc6a') in 0.017811 seconds 
+  Import took 0.022952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.067344 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153b1c79e438540c06d2d13735553381') in 0.017182 seconds 
+  Import took 0.020464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.844836 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c57225306ae3711a880f698d7e6e6c') in 0.018863 seconds 
+  Import took 0.023665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.059107 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762aa6721e1bd8a337dbb224caac240f') in 0.030857 seconds 
+  Import took 0.036323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944458 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeebb5c6375e08c313535613e9a1f64b') in 0.019010 seconds 
+  Import took 0.021919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.649794 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bfcb55b00d73c9b1abf68a1607ca47') in 0.022026 seconds 
+  Import took 0.025057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.849570 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37e526d6c0c6e99553e9e4214b5bc2c') in 0.020695 seconds 
+  Import took 0.024146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.829254 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1554ad6ecd9dd74fe7e234f2f03b5bcd') in 0.022216 seconds 
+  Import took 0.024901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.430177 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cdecf9afb84b8d55239563e6d0b0b2') in 0.019474 seconds 
+  Import took 0.023857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.663296 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a631eb17a5e4278c8c2fb73c44606b54') in 0.015611 seconds 
+  Import took 0.018070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.194045 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf2dd7cb5ca2b787997a79112d04e0d') in 0.019238 seconds 
+  Import took 0.022587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.064936 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c14eea84b359d9add0048c317423fa6') in 0.024488 seconds 
+  Import took 0.027636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.814024 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4607a3d6522e22ded2c991015990cc4') in 0.026709 seconds 
+  Import took 0.030973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.785444 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c089537a2470a6b019bea8793deafdc') in 0.021457 seconds 
+  Import took 0.025983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.011824 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5265fb867a8b36e2a930a809e8fac1') in 0.019405 seconds 
+  Import took 0.026992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368387 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827dc6a7a273135e5e46a55b6c7ff4bf') in 0.024578 seconds 
+  Import took 0.030404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.217257 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd478bad86f39da2e8e73ef08b40a73') in 0.020063 seconds 
+  Import took 0.022751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.059052 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dacbfc7622d954e1866130ac46776e0') in 0.017852 seconds 
+  Import took 0.020480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.928601 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e80676aaae3e455a81f182f33a3ea1') in 0.025619 seconds 
+  Import took 0.030297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.618218 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabe4c4db5d37a16e20c0cdfb081e18e') in 0.020746 seconds 
+  Import took 0.026120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.202054 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a995e4a40fbffa0c1be6e7a0d1fe0e2') in 0.023222 seconds 
+  Import took 0.027449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.325673 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38addc900d2140c052b36bc39ee1dff') in 0.016902 seconds 
+  Import took 0.023598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.453499 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4fb94682a2372d26b5dacb1452f2c5') in 0.025995 seconds 
+  Import took 0.030526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.187010 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f2d91a64593ea6d0cabcca3e0d4f4a') in 0.023768 seconds 
+  Import took 0.027525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.874337 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed6895ad5fdabee51e3d003e06f5715') in 0.026064 seconds 
+  Import took 0.030936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.821646 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97ee84d19a67d6b305dc3650cfb1bfe') in 0.025941 seconds 
+  Import took 0.034307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.200439 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cf44b689b980adfd9f9587eeca9089') in 0.022778 seconds 
+  Import took 0.027579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.203986 seconds.
+  path: Assets/track/sewer.prefab
+  artifactKey: Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer.prefab using Guid(74dc2f347046f9747abe2ef14c40e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504aae2205b3545cb7ef8fe68e13621a') in 0.020155 seconds 
+  Import took 0.030156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.721101 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8401f032b812ffc21f6a863c1bef71') in 0.010524 seconds 
+  Import took 0.013730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001667 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8401f032b812ffc21f6a863c1bef71') in 0.011669 seconds 
+  Import took 0.014564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.477700 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a7dfe48d98fe3e8ea2fa8f2a07e581') in 0.023478 seconds 
+  Import took 0.027560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.698710 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1b7b4405059aa4c522205708db147a') in 0.020028 seconds 
+  Import took 0.022694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.588882 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13aff4d7c945140cdd326673bf317c4') in 0.026442 seconds 
+  Import took 0.030032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.590137 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9cfdb0e42e719307f37fc6108afc6a') in 0.024090 seconds 
+  Import took 0.027341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.376796 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1191e18bf058f351e527c92dc453c37') in 0.018597 seconds 
+  Import took 0.021635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008660 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1191e18bf058f351e527c92dc453c37') in 0.011580 seconds 
+  Import took 0.017668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.065847 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3820ce85f57bef6f18c5a16707000e44') in 0.015138 seconds 
+  Import took 0.018041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.479565 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd340e5e2c7383c0a5b4052fed9657bc') in 0.018357 seconds 
+  Import took 0.021349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.197451 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade61629b82db40da190a227c3b28e85') in 0.017941 seconds 
+  Import took 0.021069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.405846 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08b49925f8bff18cf1c19cac6e6904d') in 0.023037 seconds 
+  Import took 0.026630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.874185 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5ab5a35821cd6f7370547e49cda262') in 0.020910 seconds 
+  Import took 0.026136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.211915 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3418f3f65f7827eb8596aabd64932347') in 0.020850 seconds 
+  Import took 0.025530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.421622 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16857250e02c88f28c3509e0338fd234') in 0.029606 seconds 
+  Import took 0.032744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.795807 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf1d0690fe68c6303b44101c473f99a') in 0.018929 seconds 
+  Import took 0.029204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.420258 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d42baa83a7aceb0538cd36b2ce147a0') in 0.026017 seconds 
+  Import took 0.030447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.766316 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5f55242af3092b420ef2ee5b2a5b57') in 0.028121 seconds 
+  Import took 0.032645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.583502 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91116916cd522cc3db15a792b9fe1a2') in 0.026100 seconds 
+  Import took 0.029549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193071 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cf3c176dd7431d55e6fe2ba96e1dbb') in 0.019300 seconds 
+  Import took 0.022713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.776819 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5894327de38137009182276ce389ac25') in 0.018067 seconds 
+  Import took 0.021599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.403694 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0828dda53c757d793c0365d99eb4443e') in 0.025229 seconds 
+  Import took 0.028558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.395753 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234f2056c771e287f9b83d3e4814fbe7') in 0.022888 seconds 
+  Import took 0.025844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.805093 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e440589f59ed28284aeb29bc20cf30') in 0.023534 seconds 
+  Import took 0.026123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.229694 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d473f74963414395452c2c8f7a126a5') in 0.024519 seconds 
+  Import took 0.028804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.777126 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f9eaa874151f5c07a18f6732dcc914') in 0.022478 seconds 
+  Import took 0.025289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.601990 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b7e7b1319219eb8f37888f9b696535') in 0.026770 seconds 
+  Import took 0.030105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.603531 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a208f311f7814e37ce1db89cd4fffb2a') in 0.026282 seconds 
+  Import took 0.030166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.047288 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02930d3a54a20d881b7d1f1fce2aac36') in 0.020103 seconds 
+  Import took 0.024987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.184162 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d176e4fd95af5de9fb3ca923a7289fe') in 0.020705 seconds 
+  Import took 0.023548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.043364 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db107d5c1919b961213baca657849a91') in 0.018833 seconds 
+  Import took 0.021387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.192207 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8f7568b5492a8f899073d1cca89464') in 0.022458 seconds 
+  Import took 0.024877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.790841 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc871c4750f3abda9e9682ae6bb8f6c') in 0.022266 seconds 
+  Import took 0.029785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.788670 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffbcb8b77b78bcc22c50692442e3b57') in 0.028357 seconds 
+  Import took 0.031237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.996194 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a03e60041a2ca1f3698aa22a4b8e6ce') in 0.019738 seconds 
+  Import took 0.022355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.082265 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2c798d71e19df4bbfe2ed12bd01708') in 0.016869 seconds 
+  Import took 0.019424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.217670 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b758823c48f796f892826a774169c0b7') in 0.017453 seconds 
+  Import took 0.022063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.601353 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e853641db71a5fe3d5742cdfcd00653') in 0.023205 seconds 
+  Import took 0.026329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.692441 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1824854c7cd91bb56e3cfd9a239fcbeb') in 0.016554 seconds 
+  Import took 0.019003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.386615 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c420f615482a4c4095be5956a1dd8fa7') in 0.015609 seconds 
+  Import took 0.020224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.190629 seconds.
+  path: Assets/track/sewer 2.prefab
+  artifactKey: Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/sewer 2.prefab using Guid(1daabea554202ed4a96638a1b038b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e053599bd884933356c65d9630ef589') in 0.016221 seconds 
+  Import took 0.023405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.385089 seconds.
+  path: Assets/track/New Material 1.mat
+  artifactKey: Guid(e00df3d4721f83a4ba9b19cd3642e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/New Material 1.mat using Guid(e00df3d4721f83a4ba9b19cd3642e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e6fe1da4f3bae2b6a06def18276a67') in 0.150605 seconds 
+  Import took 0.153712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.538162 seconds.
+  path: Assets/track/New Material 1.mat
+  artifactKey: Guid(e00df3d4721f83a4ba9b19cd3642e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/track/New Material 1.mat using Guid(e00df3d4721f83a4ba9b19cd3642e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c0fb5f19a003ec3b1548502152d037') in 0.039397 seconds 
+  Import took 0.044012 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
