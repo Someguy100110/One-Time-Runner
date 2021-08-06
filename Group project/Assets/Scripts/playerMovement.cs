@@ -15,7 +15,8 @@ public class playerMovement : MonoBehaviour
 	float timer = 0;
 	bool timerunning = false;
     bool Grounded = true;
-	public float smashForce = 5.0f;
+	public float smashForce = 2.0f;
+	public bool Smashing = false;
 	// Start is called before the first frame update
 	void Start()
     {
@@ -55,8 +56,9 @@ public class playerMovement : MonoBehaviour
 		{
 			timerunning = false;
 		}
-		if (Input.GetKey(KeyCode.S) && Grounded == false)
+		if (Input.GetKey(KeyCode.S) && Grounded == false && Smashing == false)
 		{
+			Smashing = true;
 			rb.AddForce(Vector3.down * smashForce, ForceMode.Impulse);
 		}
 	}
@@ -68,6 +70,7 @@ public class playerMovement : MonoBehaviour
 			left = false;
 			right = false;
 			Grounded = true;
+			Smashing = false;
 		}
 		if (other.gameObject.CompareTag("LeftLane"))
 		{
@@ -75,6 +78,7 @@ public class playerMovement : MonoBehaviour
 			right = false;
 			jumping = maxJumps;
 			Grounded = true;
+			Smashing = false;
 		}
 		if (other.gameObject.CompareTag("RightLane"))
 		{
@@ -82,6 +86,8 @@ public class playerMovement : MonoBehaviour
 			left = false;
 			right = true;
 			Grounded = true;
+			Smashing = false;
+
 		}
 		if (other.gameObject.CompareTag("Enemy"))
 		{

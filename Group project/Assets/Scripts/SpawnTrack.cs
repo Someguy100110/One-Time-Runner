@@ -11,7 +11,7 @@ public class SpawnTrack : MonoBehaviour
     {
         for (int i = 0; i <= 12; i++)
         {
-            Instantiate(array[Random.Range(0, 4)], new Vector3(0, 0, (i + 1) * 200 + 1), Quaternion.identity);
+            Instantiate(array[Random.Range(0, 4)], new Vector3(0, 0, (i + 1) * 200), Quaternion.identity);
         }
     }
 
