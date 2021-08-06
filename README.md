@@ -7,7 +7,7 @@
 * Asher
 
 ## Project Summary
-The player has entered a dangerious deal with death, and now they are running from it. They must make their way to the birth of death to prevent him to existing.
+The player has entered a dangerious deal with death, and now they are running from it. They must make their way to the birth of death to prevent him to existing. In this side swiper you need to run through time!
 
 ## Controls
 WASD
